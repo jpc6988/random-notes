@@ -20,7 +20,7 @@ Basically, this is almost like computing a division by hand: if I do $5/3$, I'd 
 
 What if I could consider the $(k-1)$-tail of the partial sums of $r^n$?
 
-Define $\tilde S_n\coloneqq r^n+r^{n+1}+\cdots$ for $n\in\mathbb N$. Note that $\lvert\tilde S_n\rvert$
+Define $\tilde S_n\coloneqq r^n+r^{n+1}+\cdots$ for $n\in\mathbb N$. Note that $\lvert\tilde S_n\rvert\lt\infty$ as a geometric series for any $n\in\mathbb N$.
 
 Alternative: The [Dirichlet Approximation Theorem](https://en.wikipedia.org/wiki/Dirichlet%27s_approximation_theorem) states that for any $N\in\mathbb N$, there exists $p,q\in\mathbb N$ with $q\lt N$ such that
 $$\left\lvert q\sqrt2-p\right\rvert\le\displaystyle\frac1N.$$
