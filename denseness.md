@@ -12,15 +12,16 @@ where $r^{k_n}\in\mathbb N$ takes on the largset value that still makes $a_{n+1}
 $$k_n\coloneqq\max\\{\kappa\in\mathbb N\mid a_n+r^\kappa\lt y\\},$$
 which can always be chosen since $r^n$ can get arbitrarily small for big enough $n$.
 
-Clearly, $(a_n)$ is strictly increasing, bounded from below (by $a_1$), and bounded from above (by $y$), so it has to converge to some number $\ell\in[a_1,y]$.
+Clearly, $(a_n)$ is strictly increasing, bounded from below (by $a_1$), and bounded from above (by $y$), so it has to converge to some number $\ell\in[a_1,y]$. I just realized that since it's a limit, there's no guarantee that $\ell\in S$!
 
-Basically, this is almost like computing a division by hand: if I do $5/3$, I'd first get $1$ which is the largset number such that %1\cdot 3<5$. And then we keep doing the same thing to the remainder. I feel like this could work but still kind of challenging.
+Basically, this is almost like computing a division by hand: if I do $5/3$, I'd first get $1$ which is the largset number such that %1\cdot 3<5$. And then we keep doing the same thing to the remainder. I feel like this *could* work but still kind of challenging.
 
+<!-- 
 ## New Idea
 
 What if I could consider the $(k-1)$-tail of the partial sums of $r^n$?
 
-Define $\tilde S_n\coloneqq r^n+r^{n+1}+\cdots$ for $n\in\mathbb N$. Note that $\lvert\tilde S_n\rvert\lt\infty$ as a geometric series for any $n\in\mathbb N$.
+Define $\tilde S_n\coloneqq r^n+r^{n+1}+\cdots$ for $n\in\mathbb N$. Note that $\lvert\tilde S_n\rvert\lt\infty$ as a geometric series for any $n\in\mathbb N$. In fact, I can say that $S$ a ring  $\lim \tilde S_n=0$ too. -->
 
 Alternative: The [Dirichlet Approximation Theorem](https://en.wikipedia.org/wiki/Dirichlet%27s_approximation_theorem) states that for any $N\in\mathbb N$, there exists $p,q\in\mathbb N$ with $q\lt N$ such that
 $$\left\lvert q\sqrt2-p\right\rvert\le\displaystyle\frac1N.$$
