@@ -14,7 +14,7 @@ which can always be chosen since $r^n$ can get arbitrarily small for big enough 
 
 Clearly, $(a_n)$ is strictly increasing, bounded from below (by $a_1$), and bounded from above (by $y$), so it has to converge to some number $\ell\in[a_1,y]$. I just realized that since it's a limit, there's no guarantee that $\ell\in S$!
 
-Basically, this is almost like computing a division by hand: if I do $5/3$, I'd first get $1$ which is the largset number such that %1\cdot 3<5$. And then we keep doing the same thing to the remainder. I feel like this *could* work but still kind of challenging.
+This is almost feels like computing a division by hand: if I do $5\div 3$, I'd first get $1$ which is the largset number such that $1\cdot 3<5$. And then we keep doing the same thing to the remainder. I feel like this *could* work but still kind of challenging.
 
 <!-- 
 ## New Idea
