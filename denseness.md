@@ -57,7 +57,7 @@ Next, we need to show that for any $x \in \mathbb{R}$ and any $\epsilon > 0$, th
 
 To do this, fix $x \in \mathbb{R}$ and $\epsilon > 0$. Consider the interval $[x-\epsilon, x+\epsilon]$. We need to find an element of the form $m+\sqrt{2}n$ that lies in this interval.
 
-We know that there exist integers $p$ and $q$ such that $|x-(p+\sqrt{2}q)| \leq \frac{1}{2\epsilon\\}$. This is a consequence of the fact that the set $\\{ p+\sqrt{2}q \mid p, q \in \mathbb{Z} \\}$ is dense in $\mathbb{R}$.
+We know that there exist integers $p$ and $q$ such that $|x-(p+\sqrt{2}q)| \leq \frac{1}{2\epsilon}$. This is a consequence of the fact that the set $\\{ p+\sqrt{2}q \mid p, q \in \mathbb{Z} \\}$ is dense in $\mathbb{R}$.
 
 Now, we can use the fact that $\sqrt{2}$ is irrational to show that we can find integers $m$ and $n$ such that $|p-m| \leq 1$ and $|q-n| \leq 1$. This is because the set $\\{ p+\sqrt{2}q \mid p, q \in \mathbb{Z} \\}$ is not only dense, but also has no repeated elements, since $\sqrt{2}$ is irrational.
 
@@ -82,11 +82,11 @@ Here is a revised proof:
 
 Let $x\in\mathbb{R}$ be fixed and $\epsilon > 0$ be arbitrary. We need to show that there exists an element $m+\sqrt{2}n$ of the set $\\{m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ such that $|x-(m+\sqrt{2}n)|<\epsilon$.
 
-Let $p$ be the closest integer to $x$ and let $q$ be the closest integer to $\frac{1}{\sqrt{2}}(x-p)$, i.e., $q$ is the integer that minimizes $|\frac{1}{\sqrt{2}}(x-p)-q|$. We note that this is well-defined since $\frac{1}{\sqrt{2}\\}$ is irrational and hence the set $\\{ \frac{1}{\sqrt{2}}(x-p) \mid p\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$.
+Let $p$ be the closest integer to $x$ and let $q$ be the closest integer to $\frac{1}{\sqrt{2}}(x-p)$, i.e., $q$ is the integer that minimizes $|\frac{1}{\sqrt{2}}(x-p)-q|$. We note that this is well-defined since $\frac{1}{\sqrt{2}}$ is irrational and hence the set $\\{ \frac{1}{\sqrt{2}}(x-p) \mid p\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$.
 
 Then we can write $|x-(p+\sqrt{2}q)|=|(\frac{1}{\sqrt{2}}(x-p)-q)|\cdot\sqrt{2}$. By the choice of $p$ and $q$, we have $|x-(p+\sqrt{2}q)|\leq\frac{1}{2}\sqrt{2}\cdot(\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{2}})=1$.
 
-Let $r$ and $s$ be integers such that $|p-r|\leq 1$ and $|q-s|\leq 1$. Since $\sqrt{2}$ is irrational, the set $\\{ r+\sqrt{2}s\mid r,s\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$. Therefore, we can find $r$ and $s$ such that $|x-(r+\sqrt{2}s)|\leq\frac{\epsilon}{2\\}$.
+Let $r$ and $s$ be integers such that $|p-r|\leq 1$ and $|q-s|\leq 1$. Since $\sqrt{2}$ is irrational, the set $\\{ r+\sqrt{2}s\mid r,s\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$. Therefore, we can find $r$ and $s$ such that $|x-(r+\sqrt{2}s)|\leq\frac{\epsilon}{2}$.
 
 Then, we have:
 
@@ -111,11 +111,11 @@ Here is a revised proof that fixes this mistake:
 
 Let $x\in\mathbb{R}$ be fixed and $\epsilon > 0$ be arbitrary. We need to show that there exists an element $m+\sqrt{2}n$ of the set $\\{m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ such that $|x-(m+\sqrt{2}n)|<\epsilon$.
 
-Let $p$ be the closest integer to $x$ and let $q$ be the closest integer to $\frac{1}{\sqrt{2}}(x-p)$, i.e., $q$ is the integer that minimizes $|\frac{1}{\sqrt{2}}(x-p)-q|$. We note that this is well-defined since $\frac{1}{\sqrt{2}\\}$ is irrational and hence the set $\\{ \frac{1}{\sqrt{2}}(x-p) \mid p\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$.
+Let $p$ be the closest integer to $x$ and let $q$ be the closest integer to $\frac{1}{\sqrt{2}}(x-p)$, i.e., $q$ is the integer that minimizes $|\frac{1}{\sqrt{2}}(x-p)-q|$. We note that this is well-defined since $\frac{1}{\sqrt{2}}$ is irrational and hence the set $\\{ \frac{1}{\sqrt{2}}(x-p) \mid p\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$.
 
 Then we can write $|x-(p+\sqrt{2}q)|=|(\frac{1}{\sqrt{2}}(x-p)-q)|\cdot\sqrt{2}$. By the choice of $p$ and $q$, we have $|x-(p+\sqrt{2}q)|\leq\frac{1}{2}\sqrt{2}\cdot(\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{2}})=1$.
 
-Let $r$ and $s$ be integers such that $|p-r|\leq 1$ and $|q-s|\leq 1$. Since $\sqrt{2}$ is irrational, the set $\\{ r+\sqrt{2}s\mid r,s\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$. Therefore, we can find $r$ and $s$ such that $|x-(r+\sqrt{2}s)|\leq\frac{\epsilon}{2\\}$.
+Let $r$ and $s$ be integers such that $|p-r|\leq 1$ and $|q-s|\leq 1$. Since $\sqrt{2}$ is irrational, the set $\\{ r+\sqrt{2}s\mid r,s\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$. Therefore, we can find $r$ and $s$ such that $|x-(r+\sqrt{2}s)|\leq\frac{\epsilon}{2}$.
 
 Then, we have:
 
@@ -140,7 +140,7 @@ Here is a revised proof that fixes this mistake as well:
 
 Let $x\in\mathbb{R}$ be fixed and $\epsilon > 0$ be arbitrary. We need to show that there exists an element $m+\sqrt{2}n$ of the set $\\{m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ such that $|x-(m+\sqrt{2}n)|<\epsilon$.
 
-Let $p$ and $p+1$ be the two integers closest to $x$, and let $q$ be the integer closest to $\frac{1}{\sqrt{2}}(x-p)$, i.e., $q$ is the integer that minimizes $|\frac{1}{\sqrt{2}}(x-p)-q|$. We note that this is well-defined since $\frac{1}{\sqrt{2}\\}$ is irrational and hence the set $\\{ \frac{1}{\sqrt{2}}(x-p) \mid p\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$.
+Let $p$ and $p+1$ be the two integers closest to $x$, and let $q$ be the integer closest to $\frac{1}{\sqrt{2}}(x-p)$, i.e., $q$ is the integer that minimizes $|\frac{1}{\sqrt{2}}(x-p)-q|$. We note that this is well-defined since $\frac{1}{\sqrt{2}$ is irrational and hence the set $\\{ \frac{1}{\sqrt{2}}(x-p) \mid p\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$.
 
 Then we can write $|x-(p+\sqrt{2}q)|=|(\frac{1}{\sqrt{2}}(x-p)-q)|\cdot\sqrt{2}$. By the choice of $p$ and $q$, we have $|x-(p+\sqrt{2}q)|\leq\frac{1}{2}\sqrt{2}\cdot(\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{2}})=1$.
 
@@ -156,7 +156,7 @@ I apologize for my mistake again. Thank you for pointing it out. Here is another
 
 Let $x\in\mathbb{R}$ be fixed and let $\epsilon > 0$ be arbitrary. We want to show that there exists an element $m+\sqrt{2}n$ in the set $\\{ m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ such that $|x-(m+\sqrt{2}n)|<\epsilon$.
 
-Let $p$ be the closest integer to $x$. We will first show that there exists an integer $q$ such that $|x-(p+\sqrt{2}q)|<\frac{\epsilon}{\sqrt{2}\\}$.
+Let $p$ be the closest integer to $x$. We will first show that there exists an integer $q$ such that $|x-(p+\sqrt{2}q)|<\frac{\epsilon}{\sqrt{2}}$.
 
 Let $r=\lfloor\sqrt{2}p\rfloor$ and $s=\lfloor\sqrt{2}(p+\frac{1}{2})\rfloor$. Note that $s=r+1$ or $s=r$ **[INTERRUPTED]**
 
@@ -172,7 +172,7 @@ Here is a revised version of the proof that avoids using "the closest" integer:
 
 Let $x\in\mathbb{R}$ be fixed and let $\epsilon > 0$ be arbitrary. We want to show that there exists an element $m+\sqrt{2}n$ in the set $\\{ m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ such that $|x-(m+\sqrt{2}n)|<\epsilon$.
 
-Let $p$ be an integer such that $|x-p|\leq \frac{1}{2\\}$. We will first show that there exists an integer $q$ such that $|x-(p+\sqrt{2}q)|<\frac{\epsilon}{\sqrt{2}\\}$.
+Let $p$ be an integer such that $|x-p|\leq \frac{1}{2}$. We will first show that there exists an integer $q$ such that $|x-(p+\sqrt{2}q)|<\frac{\epsilon}{\sqrt{2}}$.
 
 Let $r=\lfloor\sqrt{2}p\rfloor$ and $s=\lfloor\sqrt{2}(p+\frac{1}{2})\rfloor$. Note that $s=r+1$ or $s=r$ since $\sqrt{2}$ is irrational.
 
@@ -180,9 +180,9 @@ If $r+\frac{1}{2}>p$, then we have $p+\frac{1}{2}<r+\frac{1}{2}<p+1$, which impl
 
 If $r+\frac{1}{2}\leq p$, then we have $p-\frac{1}{2}<r+\frac{1}{2}\leq p$, which implies that $r\leq p-1$ and $s\geq p$. We can then choose $q=r$ if $x<p-\frac{1}{\sqrt{2}}(p-r)$ and $q=s$ otherwise.
 
-In either case, we have $|x-(p+\sqrt{2}q)|<\frac{\epsilon}{\sqrt{2}\\}$.
+In either case, we have $|x-(p+\sqrt{2}q)|<\frac{\epsilon}{\sqrt{2}}$.
 
-Now, let $\alpha=m+\sqrt{2}n$ be an element of the set $\\{ m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ such that $|\alpha-(p+\sqrt{2}q)|<\frac{\epsilon}{\sqrt{2}\\}$. Then we have
+Now, let $\alpha=m+\sqrt{2}n$ be an element of the set $\\{ m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ such that $|\alpha-(p+\sqrt{2}q)|<\frac{\epsilon}{\sqrt{2}}$. Then we have
 
 $$\begin{align}
 |x-\alpha| &= |(x-p)-(m+\sqrt{2}n-q)| \
@@ -217,9 +217,9 @@ Explain this part: "If $r+\frac{1}{2}>p$, then we have $p+\frac{1}{2}<r+\frac{1}
 
 Certainly! Here's an explanation of that part of the proof:
 
-Suppose $r + \frac{1}{2} > p$, so we have $p < r + \frac{1}{2} < p+1$. This means that $p + \frac{1}{2} < r + 1$ and $p + \frac{1}{2} > r$. Therefore, we have $r \leq p$ and $r+1 \geq p+\frac{1}{2\\}$. Since $s=r$ or $s=r+1$, we have $s \geq r+1$. Therefore, $s \geq p+\frac{1}{2\\}$.
+Suppose $r + \frac{1}{2} > p$, so we have $p < r + \frac{1}{2} < p+1$. This means that $p + \frac{1}{2} < r + 1$ and $p + \frac{1}{2} > r$. Therefore, we have $r \leq p$ and $r+1 \geq p+\frac{1}{2}$. Since $s=r$ or $s=r+1$, we have $s \geq r+1$. Therefore, $s \geq p+\frac{1}{2}$.
 
-Now, if $x<p+\frac{1}{\sqrt{2}}(r-p)$, then we can set $q=r$. Notice that the expression $p+\frac{1}{\sqrt{2}}(r-p)$ represents the number that is $\frac{1}{\sqrt{2}\\}$ of the distance between $p$ and $r$, added to $p$. Thus, $x$ is less than this number, which means that it is closer to $r$ than to $s$. Therefore, we can set $q=r$.
+Now, if $x<p+\frac{1}{\sqrt{2}}(r-p)$, then we can set $q=r$. Notice that the expression $p+\frac{1}{\sqrt{2}}(r-p)$ represents the number that is $\frac{1}{\sqrt{2}}$ of the distance between $p$ and $r$, added to $p$. Thus, $x$ is less than this number, which means that it is closer to $r$ than to $s$. Therefore, we can set $q=r$.
 
 On the other hand, if $x \geq p+\frac{1}{\sqrt{2}}(r-p)$, then we can set $q=s$. In this case, $x$ is closer to $s$ than to $r$, so we choose $q=s$.
 
@@ -233,9 +233,9 @@ Why is $r + \frac{1}{2} < p + 1$?
 
 I apologize for the confusion. I made a mistake in my previous explanation.
 
-When we assume that $r+\frac{1}{2}>p$, we have $r > p-\frac{1}{2\\}$. Then, since $p$ is an integer, we have $p-\frac{1}{2} < p \leq p+\frac{1}{2\\}$. Combining these inequalities, we get:
+When we assume that $r+\frac{1}{2}>p$, we have $r > p-\frac{1}{2}$. Then, since $p$ is an integer, we have $p-\frac{1}{2} < p \leq p+\frac{1}{2}$. Combining these inequalities, we get:
 
-$$r > p-\frac{1}{2} \geq p-\frac{1}{2} < p \leq p+\frac{1}{2} < r + \frac{1}{2\\}$$
+$$r > p-\frac{1}{2} \geq p-\frac{1}{2} < p \leq p+\frac{1}{2} < r + \frac{1}{2}$$
 
 So, we have $p < r+\frac{1}{2} < p+1$.
 
@@ -251,15 +251,15 @@ You are correct. I apologize for the confusion. The fact that $r=\lfloor\sqrt{2}
 
 Here is a corrected version of the explanation:
 
-Assume that $r+\frac{1}{2}>p$. Since $r=\lfloor\sqrt{2}p\rfloor$, we have $\sqrt{2}p-1<r\leq\sqrt{2}p$. Rearranging this inequality, we get $p < \frac{r+1}{\sqrt{2}} \leq p+\frac{1}{\sqrt{2}\\}$.
+Assume that $r+\frac{1}{2}>p$. Since $r=\lfloor\sqrt{2}p\rfloor$, we have $\sqrt{2}p-1<r\leq\sqrt{2}p$. Rearranging this inequality, we get $p < \frac{r+1}{\sqrt{2}} \leq p+\frac{1}{\sqrt{2}}$.
 
 Now, suppose $x<p+\frac{1}{\sqrt{2}}(r-p)$. Then, we have:
 
-$$x-p<\frac{r-p}{\sqrt{2}\\}$$
+$$x-p<\frac{r-p}{\sqrt{2}}$$
 
-Since $r-p\geq 1$, we have $\frac{r-p}{\sqrt{2}}> \frac{1}{\sqrt{2}\\}$. Therefore:
+Since $r-p\geq 1$, we have $\frac{r-p}{\sqrt{2}}> \frac{1}{\sqrt{2}}$. Therefore:
 
-$$x-p<\frac{1}{\sqrt{2}} \leq p+\frac{1}{\sqrt{2}}-p = \frac{1}{\sqrt{2}\\}$$
+$$x-p<\frac{1}{\sqrt{2}} \leq p+\frac{1}{\sqrt{2}}-p = \frac{1}{\sqrt{2}}$$
 
 So, we can choose $q=r$. Similarly, if $x>p+\frac{1}{\sqrt{2}}(s-p)$, we can choose $q=s$. This shows that there exists an integer pair $(p,q)$ such that $|x-(p+\sqrt{2}q)|<\epsilon$, which completes the proof.
 
