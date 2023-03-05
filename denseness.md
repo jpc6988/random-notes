@@ -29,6 +29,8 @@ So basically, there is a rational number $p/q$ that approximates $\sqrt2$ really
 
 ## ChatGPT's "Proof" 😳
 
+At least it tried 😂
+
 Me: "prove that the set $\\{ m + \sqrt{2} n \mid  m, n ~\rm integers \\}$ is dense is $\mathbb R$."
 
 ChatGPT: "This is a great problem in real analysis! Here's an outline of a proof to get you started:
@@ -41,16 +43,16 @@ ChatGPT: "This is a great problem in real analysis! Here's an outline of a proof
 
 "We know that there exist integers $p$ and $q$ such that $|x-(p+\sqrt{2}q)| \leq \frac{1}{2\epsilon}$. This is a consequence of the fact that the set ${ p+\sqrt{2}q \mid p, q \in \mathbb{Z} }$ is dense in $\mathbb{R}$.
 
-"Now, we can use the fact that $\sqrt{2}$ is irrational to show that we can find integers $m$ and $n$ such that $|p-m| \leq 1$ and $|q-n| \leq 1$. This is because the set ${ p+\sqrt{2}q \mid p, q \in \mathbb{Z} }$ is not only dense, but also has no repeated elements, since $\sqrt{2}$ is irrational.
+"Now, we can use the fact that $\sqrt{2}$ is irrational to show that we can find integers $m$ and $n$ such that $|p-m| \leq 1$ and $|q-n| \leq 1$. This is because the set $\{ p+\sqrt{2}q \mid p, q \in \mathbb{Z} \}$ is not only dense, but also has no repeated elements, since $\sqrt{2}$ is irrational.
 
 "Putting this all together, we have:
 
-\begin{align*}
-|m+\sqrt{2}n - x| &= |(m-p) + \sqrt{2}(n-q)| \
-&\leq |m-p| + \sqrt{2} |n-q| \
-&\leq \sqrt{2} (|m-p|+|q-n|) \
-&\leq \sqrt{2} \cdot 2 \
+$$\begin{align*}
+|m+\sqrt{2}n - x| &= |(m-p) + \sqrt{2}(n-q)| \\
+&\leq |m-p| + \sqrt{2} |n-q| \\
+&\leq \sqrt{2} (|m-p|+|q-n|) \\
+&\leq \sqrt{2} \cdot 2 \\
 &= 2\sqrt{2} < \epsilon
-\end{align*}
-
+\end{align*}$$
 "Therefore, there exists an element $m+\sqrt{2}n$ of the form we are considering that lies within $\epsilon$ of $x$. This proves that the set is dense in $\mathbb{R}$."
+
