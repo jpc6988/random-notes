@@ -90,12 +90,12 @@ Let $r$ and $s$ be integers such that $|p-r|\leq 1$ and $|q-s|\leq 1$. Since $\s
 
 Then, we have:
 
-\begin{align*}
-|x-(r+\sqrt{2}s)| &= |(x-(p+\sqrt{2}q)) + (p-r) + \sqrt{2}(q-s)| \
-&\leq |x-(p+\sqrt{2}q)| + |p-r| + \sqrt{2}|q-s| \
-&\leq 1 + 1 + \sqrt{2} \
+$$\begin{align}
+|x-(r+\sqrt{2}s)| &= |(x-(p+\sqrt{2}q)) + (p-r) + \sqrt{2}(q-s)| \\
+&\leq |x-(p+\sqrt{2}q)| + |p-r| + \sqrt{2}|q-s| \\
+&\leq 1 + 1 + \sqrt{2} \\
 &< 3 + \epsilon
-\end{align*}
+\end{align}$$
 
 Therefore, there exists an element $r+\sqrt{2}s$ of the set $\\{m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ such that $|x-(r+\sqrt{2}s)|<3+\epsilon$. By choosing $\epsilon$ small enough, we can make $3+\epsilon$ arbitrarily small. This proves that the set $\\{m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$.
 
@@ -120,11 +120,11 @@ Let $r$ and $s$ be integers such that $|p-r|\leq 1$ and $|q-s|\leq 1$. Since $\s
 Then, we have:
 
 $$\begin{align}
-|x-(r+\sqrt{2}s)| &= |(x-(p+\sqrt{2}q)) + (p-r) + \sqrt{2}(q-s)| \
-&\leq |x-(p+\sqrt{2}q)| + |p-r| + \sqrt{2}|q-s| \
-&\leq 1 + 1 + \sqrt{2} \
+|x-(r+\sqrt{2}s)| &= |(x-(p+\sqrt{2}q)) + (p-r) + \sqrt{2}(q-s)| \\
+&\leq |x-(p+\sqrt{2}q)| + |p-r| + \sqrt{2}|q-s| \\
+&\leq 1 + 1 + \sqrt{2} \\
 &< 3 + \epsilon
-\end{align*}$$
+\end{align}$$
 
 Therefore, there exists an element $r+\sqrt{2}s$ of the set $\\{m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ such that $|x-(r+\sqrt{2}s)|<3+\epsilon$. By choosing $\epsilon$ small enough, we can make $3+\epsilon$ arbitrarily small. This proves that the set $\\{m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$.
 
@@ -185,9 +185,9 @@ In either case, we have $|x-(p+\sqrt{2}q)|<\frac{\epsilon}{\sqrt{2}}$.
 Now, let $\alpha=m+\sqrt{2}n$ be an element of the set $\\{ m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ such that $|\alpha-(p+\sqrt{2}q)|<\frac{\epsilon}{\sqrt{2}}$. Then we have
 
 $$\begin{align}
-|x-\alpha| &= |(x-p)-(m+\sqrt{2}n-q)| \
-&\leq |x-p|+|m+\sqrt{2}n-q| \
-&\leq \frac{1}{2}+|\sqrt{2}n-\sqrt{2}q| \
+|x-\alpha| &= |(x-p)-(m+\sqrt{2}n-q)| \\
+&\leq |x-p|+|m+\sqrt{2}n-q| \\
+&\leq \frac{1}{2}+|\sqrt{2}n-\sqrt{2}q| \\
 &= \sqrt{2}|n-q|.
 \end{align}$$
 
