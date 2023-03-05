@@ -75,7 +75,7 @@ Therefore, there exists an element $m+\sqrt{2}n$ of the form we are considering 
 
 ### Me
 
-I'm sorry but your argument does not stand at all. You use all these symbol but your argument relies on the assumption that the statement you're proving is true (i.e., the assumption that there exists p$ and $q$ such that $|x-(p+\sqrt{2}q|)| \leq \frac{1}{2\epsilon}$ is the statement you're supposed to prove). Also, clearly $2\sqrt{2} \lt \epsilon$ is not true since $\epsilon$ is arbitrarily small. 
+I'm sorry but your argument does not stand at all. You use all these symbol but your argument relies on the assumption that the statement you're proving is true (i.e., the assumption that there exists $p$ and $q$ such that $|x-(p+\sqrt{2}q|)| \leq \frac{1}{2\epsilon}$ is the statement you're supposed to prove). Also, clearly $2\sqrt{2} \lt \epsilon$ is not true since $\epsilon$ is arbitrarily small. 
 I apologize for my mistake in the previous response. You are correct that my argument was circular, and the inequality $2\sqrt{2} \lt  \epsilon$ is not true for arbitrary small $\epsilon$.
 
 Here is a revised proof:
