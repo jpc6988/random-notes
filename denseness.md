@@ -29,11 +29,11 @@ So basically, there is a rational number $p/q$ that approximates $\sqrt2$ really
 
 ## ChatGPT's "Proof" 😳
 
-Me: "prove that the set $\{ m + \sqrt{2} n \mid  m, n ~\rm integers \}$ is dense is $\mathbb R$."
+Me: "prove that the set $\\{ m + \sqrt{2} n \mid  m, n ~\rm integers \\}$ is dense is $\mathbb R$."
 
 ChatGPT: "This is a great problem in real analysis! Here's an outline of a proof to get you started:
 
-"First, we can observe that the set $\{ m + \sqrt{2} n \mid m, n \in \mathbb{Z} \}$ is not empty. For example, $0 = 0 + \sqrt{2} \cdot 0$ is in the set.
+"First, we can observe that the set $\\{ m + \sqrt{2} n \mid m, n \in \mathbb{Z} \\}$ is not empty. For example, $0 = 0 + \sqrt{2} \cdot 0$ is in the set.
 
 "Next, we need to show that for any $x \in \mathbb{R}$ and any $\epsilon > 0$, there exists an element of the set that is within $\epsilon$ of $x$.
 
