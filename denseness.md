@@ -140,7 +140,7 @@ Here is a revised proof that fixes this mistake as well:
 
 Let $x\in\mathbb{R}$ be fixed and $\epsilon \gt  0$ be arbitrary. We need to show that there exists an element $m+\sqrt{2}n$ of the set $\\{m+\sqrt{2}n \mid m,n\in\mathbb{Z}\\}$ such that $|x-(m+\sqrt{2}n)|\lt \epsilon$.
 
-Let $p$ and $p+1$ be the two integers closest to $x$, and let $q$ be the integer closest to $\frac{1}{\sqrt{2}}(x-p)$, i.e., $q$ is the integer that minimizes $|\frac{1}{\sqrt{2}}(x-p)-q|$. We note that this is well-defined since $\frac{1}{\sqrt{2}$ is irrational and hence the set $\\{ \frac{1}{\sqrt{2}}(x-p) \mid p\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$.
+Let $p$ and $p+1$ be the two integers closest to $x$, and let $q$ be the integer closest to $\frac{1}{\sqrt{2}}(x-p)$, i.e., $q$ is the integer that minimizes $|\frac{1}{\sqrt{2}}(x-p)-q|$. We note that this is well-defined since $\frac{1}{\sqrt{2}}$ is irrational and hence the set $\\{ \frac{1}{\sqrt{2}}(x-p) \mid p\in\mathbb{Z}\\}$ is dense in $\mathbb{R}$.
 
 Then we can write $|x-(p+\sqrt{2}q)|=|(\frac{1}{\sqrt{2}}(x-p)-q)|\cdot\sqrt{2}$. By the choice of $p$ and $q$, we have $|x-(p+\sqrt{2}q)|\leq\frac{1}{2}\sqrt{2}\cdot(\frac{1}{\sqrt{2}}+\frac{1}{\sqrt{2}})=1$.
 
