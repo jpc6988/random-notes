@@ -47,7 +47,7 @@ ChatGPT: "This is a great problem in real analysis! Here's an outline of a proof
 
 "Putting this all together, we have:
 
-$$\begin{align} |m+\sqrt{2}n - x| &= |(m-p) + \sqrt{2}(n-q)| \\ &\leq |m-p| + \sqrt{2} |n-q| \\ &\leq \sqrt{2} (|m-p|+|q-n|) \\ &\leq \sqrt{2} \cdot 2 \\ &= 2\sqrt{2} < \epsilon \end{align}$$
+$$\begin{align} |m+\sqrt{2}n - x| &= |(m-p) + \sqrt{2}(n-q)| \\\\ &\leq |m-p| + \sqrt{2} |n-q| \\\\ &\leq \sqrt{2} (|m-p|+|q-n|) \\\\ &\leq \sqrt{2} \cdot 2 \\\\ &= 2\sqrt{2} < \epsilon \end{align}$$
 
 "Therefore, there exists an element $m+\sqrt{2}n$ of the form we are considering that lies within $\epsilon$ of $x$. This proves that the set is dense in $\mathbb{R}$."
 
