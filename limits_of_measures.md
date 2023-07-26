@@ -10,7 +10,7 @@ This contrasts the typical sequential characterization, which is established for
 
 **Proposition 2:** Suppose $f(x_n)$ tends to $L\in\mathbb R$ for any real sequence $\\{x_n\\}_{n=1}^\infty$ that tends to $+\infty$ (which needs not be monotone). Then, $\lim\_{x\to\infty}F(x)$ exists and equals $L$.
 
-I was confused in class since I do not recall this fact from my real analysis training, and I've double-checked "Baby Rudin," with no luck. I do vaguely recall this being an exercise, and I have attempted a proof as follows:
+I was previously confused in class since I didn't know this fact. I've also tried checking "Baby Rudin," but with no luck. I do vaguely recall this being an exercise when I took MATH 401 at Harrisburg, and I have attempted a proof as follows:
 
 _Proof:_ We first suppose for the sake of contradiction that $\lim_{x\to\infty}f(x)$ does not exist. We therefore fix a particular $\epsilon\gt0$ such that for any $X\in\mathbb R$, there exists some $x>X$ for which $|f(x)-L|\ge\epsilon$. We now construct a sequence $\\{x^\*\_n\\}\_{n=1}^\infty$ as follows: for each $n\in\mathbb N$, set $X\coloneqq n$ and choose a particular $x^\*\_n>X=n$. We use the Bolzano–Weierstrass theorem to extract a subsequence $\\{x^\*\_{n\_k}\\}\_{k=1}^\infty$ that tends to the limit superior $+\infty$ (since $\\{x^\*\_n\\}>\\{n\\}$ is unbounded). However, $\\{x^\*\_{n\_k}\\}$ never intersects the $\epsilon$-neighborhood of $L$ by construction, which contradicts the given condition that implies $f(x^\*\_{n\_k})\to L$. Thus, $\lim_{x\to\infty}f(x)$ exists.
 
