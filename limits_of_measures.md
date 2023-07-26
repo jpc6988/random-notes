@@ -2,9 +2,13 @@
 
 **Property:** Suppose $F\colon\mathbb R\to\mathbb R$ is the CDF of a real-valued random variable. Then, $\lim_{b\to\infty}F(b)=1$.
 
-The textbook implicitly uses the following fact, a "weaker" characterization of the limit at $+\infty$:
+The textbook implicitly uses the following fact to prove this property, requiring a "weaker" sequential condition to establish the limit at $+\infty$:
 
-**Proposition:** Suppose that $f(x_n)$ tends to $L\in\mathbb R$  for any *non-decreasing* real sequence $\\{x\_n\\}\_{n=1}^\infty$ that tends to $+\infty$. Then, $\lim_{x\to\infty}F(x)$ exists and equals $L$.
+**Proposition 1:** Suppose that $f(x_n)$ tends to $L\in\mathbb R$ for any *non-decreasing* real sequence $\\{x\_n\\}\_{n=1}^\infty$ that tends to $+\infty$. Then, $\lim_{x\to\infty}F(x)$ exists and equals $L$.
+
+This contrasts the typical sequential characterization, which is established for metric spaces, _without an order on the space to talk about monotonicity_. Of course, here we consider the compatified domain $\mathbb R^\*=\mathbb R\cup\\{-\infty,+\infty\\}$ (which justifies the use of Bolzano–Weierstrass in my proof). The more common statement is as follows:
+
+**Proposition 2:** Suppose $f(x_n)$ tends to $L\in\mathbb R$ for any real sequence $\\{x_n\\}_{n=1}^\infty$ that tends to $+\infty$ (which needs not be monotone). Then, $\lim_{x\to\infty}F(x)$ exists and equals $L$.
 
 I was confused in class since I do not recall this fact from my real analysis training, and I've double-checked "Baby Rudin," with no luck. I do vaguely recall this being an exercise, and I have attempted a proof as follows:
 
