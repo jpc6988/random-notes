@@ -1,8 +1,8 @@
 # On the Continuity Properties of the Cumulative Distribution Function
 
-**Property:** Suppose $F\colon\mathbb R\to\mathbb R$ is the CDF of a real-valued random variable. Then, $\lim_{b\to\infty}F(b)=1$.
+**Property 4.10.2:** Suppose $F\colon\mathbb R\to\mathbb R$ is the CDF of a real-valued random variable. Then, $\lim_{b\to\infty}F(b)=1$.
 
-The textbook implicitly uses the following fact to prove this property, requiring a "weaker" sequential condition to establish the limit at $+\infty$:
+The [textbook](https://github.com/yaduvanshirishi/GATE-CSE/blob/master/A-First-Course-in-Probability-8th-Edition.pdf) implicitly uses the following fact to prove this property, requiring a "weaker" sequential condition to establish the limit at $+\infty$:
 
 **Proposition 1:** Suppose that $f(x_n)$ tends to $L\in\mathbb R$ for any *non-decreasing* real sequence $\\{x\_n\\}\_{n=1}^\infty$ that tends to $+\infty$. Then, $\lim_{x\to\infty}F(x)$ exists and equals $L$.
 
