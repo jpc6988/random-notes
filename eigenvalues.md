@@ -28,7 +28,9 @@ We have now found **all** eigenvalues. To find all $0$-eigenvectors, we solve th
 $$T(p)=0\cdot p$$
 for $p$; that is, we are solving $p'=0$ where $p$ is a non-zero polynomial. An **arbitrary** non-zero polynomial has $p(x)=a_0+\cdots+a_nx^n$ (where $a_0,\cdots,a_n$ are not all zeros), so $p'(x)=a_1+2a_2x+\cdots+na_nx^{n-1}$. That is, we are now solving
 $$a_1+2a_2x+\cdots+na_nx^{n-1}=0.$$
-The zero polynomial is unique, so $a_1=2a_2=\cdots=na_n=0$, which implies $a_1=\cdots=a_n=0$. Note that we are **solving** for $p$, so any $p$ with $a_0\ne0$ and $a_1=\cdots=a_n=0$ works (note that $n$ is also **arbitary** because the polynomial was arbitrary, but that doesn't change anything).
+The zero polynomial is unique, so $a_1=2a_2=\cdots=na_n=0$; that is, $a_1=\cdots=a_n=0$. Note that we are **solving** for $p$, so this is true if and only if $a_0\ne0$ and $a_1=\cdots=a_n=0$ (note that $n$ is also **arbitary** because the polynomial was arbitrary, but that doesn't change anything).
+
+**Note that we cannot content ourselves with implications in one direction when solving; otherwise, logically, we might miss some eigenvectors.**
 
 
 Therefore, $T$ has a unique eigenvalue $0$, whose associated eigenvectors are any non-zero constant polynomial.
