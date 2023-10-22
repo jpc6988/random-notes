@@ -8,7 +8,7 @@ If $\lambda\in\mathbb F$ is an eigenvalue of $T$, then any vector $v\in V\backsl
 
 There can be many, many cases to discuss, which really makes it hard to track the logic. But, so long as we keep track of the quantifiers ("for all," "arbitrary," "there exists"), we'll be in good shape.
 
-The big idea is not hard: first, let $\lambda\in\mathbb F$ be arbitary, and consider the proposition "$T(v)=\lambda\cdot v$ for some non-zero $v\in V$." **This proposition is true for this particular $\boldsymbol\lambda$ if and only if $\boldsymbol\lambda$ is an eigenvalue of $\boldsymbol T$.**
+The big idea is not hard: first, let $\lambda\in\mathbb F$ be arbitary, and consider the proposition "that $T(v)=\lambda\cdot v$ for some non-zero $v\in V$." **This proposition is true for this particular $\boldsymbol\lambda$ if and only if $\boldsymbol\lambda$ is an eigenvalue of $\boldsymbol T$.**
 
 **Example 1.** Let $V\coloneqq\mathcal P(\mathbb R)$ and let $T(p)\coloneqq p'$ be the derivative operator. Find all eigenvalues of $T$ as well as all eigenvectors associated with each eigenvalue.
 
