@@ -4,7 +4,7 @@ We'll first spell out the definition:
 
 Let $V$ be a vector space over $\mathbb F$ and $T\in\mathcal L(V)$. A scalar $\lambda\in\mathbb F$ is said to be an eigenvalue of $T$ if there exists $v\in V\backslash\\{0\\}$ such that $T(v)=\lambda\cdot v$. 
 
-If $\lambda\in\mathbb F$ is an eigenvalue of $T$, then any vector $v\in V\backslash\\{0\\}$ such that $T(v)=\lambda\cdot v$ is said to be an eigenvector of $T$ *associated with $\lambda$.* Letting $E(T,\lambda)\coloneqq\{v\in V\mid T(v)=\lambda\cdot v\}$, the set of all $\lambda$-eigenvectors is precisely $E(T,\lambda)\backslash\\{0\\}$.
+If $\lambda\in\mathbb F$ is an eigenvalue of $T$, then any vector $v\in V\backslash\\{0\\}$ such that $T(v)=\lambda\cdot v$ is said to be an eigenvector of $T$ *associated with* $\lambda$. Letting $E(T,\lambda)\coloneqq\{v\in V\mid T(v)=\lambda\cdot v\}$, the set of all $\lambda$-eigenvectors is precisely $E(T,\lambda)\backslash\\{0\\}$.
 
 There can be many, many cases to discuss, which really makes it hard to track the logic. But, so long as we keep track of the quantifiers ("for all," "arbitrary," "there exists"), we'll be in good shape.
 
