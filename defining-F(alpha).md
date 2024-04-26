@@ -1,10 +1,10 @@
 I wanted to justify the following definition, but I was afraid the infinite intersection (which is in general uncountable) creates a logic issue. I am also uncertain if I implicitly assumed the Axiom of Choice.
 
-**Definition 1.** Suppose $`\alpha_1,\cdots,\alpha_k\in E\ge F`$. Define the field $`F(\alpha_1,\cdots,\alpha_k)`$ as the smallest field of $E$ containing $`\alpha_1,\cdots,\alpha_k`$ and $F$; that is, for all subfields $F'\le E$ such that $F'\ge F$ and $`\{\alpha_1,\cdots,\alpha_k\}\subseteq F'`$, we have $`F(\alpha_1,\cdots,\alpha_k)\le F'`$
+**Definition 1.** Suppose $`\alpha_1,\cdots,\alpha_k\in E\ge F`$. Define the field $`F(\alpha_1,\cdots,\alpha_k)`$ as the smallest subfield of $E$ containing $`\alpha_1,\cdots,\alpha_k`$ and $F$; that is, for all subfields $F'\le E$ such that $F'\ge F$ and $`\{\alpha_1,\cdots,\alpha_k\}\subseteq F'`$, we have $`F(\alpha_1,\cdots,\alpha_k)\le F'`$
 
 **Corollary 1.** If $`F(\alpha_1,\cdots,\alpha_k)`$ exists, then it must be unique.
 
-*Proof.* If $F_1,F_2$ are both such smallest fields, then $F_1\le F_2$ and $F_2\le F_1$. Q.E.D.
+*Proof.* If $F_1,F_2$ are both such smallest subfields, then $F_1\le F_2$ and $F_2\le F_1$. Q.E.D.
 
 To show that the above definition always exists, we begin by framing the concept of the smallest as an intersection.
 
